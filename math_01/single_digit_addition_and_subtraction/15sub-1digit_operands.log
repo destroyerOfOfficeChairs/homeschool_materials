@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.4.26)  4 FEB 2024 20:43
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.4.26)  5 FEB 2024 15:56
  restricted system commands enabled.
 **15sub-1digit_operands.tex
 (./15sub-1digit_operands.tex
@@ -188,28 +188,28 @@ Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
 (./15sub-1digit_operands.aux)
 \openout1 = 15sub-1digit_operands.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-0.
+1.
 
 (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -253,9 +253,9 @@ LaTeX Font Info:    ... okay on input line 40.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 56.
+(Font)              <17.28> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 56.
+(Font)              <12> on input line 58.
 > Step: build the whole table.
 [1
 
@@ -263,18 +263,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (./15sub-1digit_operands.aux))
 
 Here is how much of LuaTeX's memory you used:
- 3077 strings out of 478263
+ 3076 strings out of 478263
  100000,1977958 words of node,token memory allocated
  406 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 48 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:894,3:36,4:3,5:72,6:34,7:1334,8:1,9:678,10:2,11:6
- 23319 multiletter control sequences out of 65536+600000
+   avail lists: 2:934,3:58,4:3,5:72,6:34,7:1384,8:1,9:678,10:2,11:6
+ 23318 multiletter control sequences out of 65536+600000
  27 fonts using 1608431 bytes
- 58i,12n,116p,207b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 58i,12n,116p,207b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texl
 ive/2023/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on 15sub-1digit_operands.pdf (1 page, 6899 bytes).
+Output written on 15sub-1digit_operands.pdf (1 page, 7528 bytes).
 
 PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream
