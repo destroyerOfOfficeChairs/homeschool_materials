@@ -1,0 +1,60 @@
+\documentclass{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{tabularray}
+
+\newcommand\numinit{\edef\num{\fpeval{randint(1,9)}}}
+\newcommand\binaryinit{\edef\binary{\fpeval{randint(0,1)}}}
+\newcommand\operator{
+  \binaryinit
+  \ifnum\binary>0 + \else - \fi
+  }
+
+\newcommand\sortxy{
+  \ifnum\y>\x
+    \let\temp\y
+    \let\y\x
+    \let\x\temp
+  \fi
+  }
+
+\newcommand\addsubone{
+  \numinit
+  \let\x\num
+  \numinit
+  \let\y\num
+%  \binaryinit
+%  \ifnum\binary<1 \sortxy \fi
+  \textbf{
+  \begin{tabular}{c@{\,}c}
+    & \x \\
+%    \ifnum\binary>0 + \else - \fi & \y \\
+    + & \y \\
+    \hline
+  \end{tabular}
+  }
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\LARGE
+
+\begin{centering}
+
+15 ADDITION PROBLEMS
+
+\SetTblrInner{rowsep=1cm}
+
+\begin{tblr}{width=0.8\textwidth,colspec={XXXXX}}
+  
+  \addsubone & \addsubone & \addsubone & \addsubone & \addsubone \\ 
+  \addsubone & \addsubone & \addsubone & \addsubone & \addsubone \\ 
+  \addsubone & \addsubone & \addsubone & \addsubone & \addsubone 
+  
+\end{tblr}
+
+\end{centering}
+
+\end{document}

@@ -1,0 +1,283 @@
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.4.26)  4 FEB 2024 20:41
+ restricted system commands enabled.
+**15add-1digit_operands.tex
+(./15add-1digit_operands.tex
+LaTeX2e <2022-11-01> patch level 1
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/Wjbvi/.texlive2023/texmf-v
+ar/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
+olved path "c:/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-2022-10-
+03.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/Wjbvi/.texlive2023/texmf-v
+ar/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
+ing layer <2023-04-20>
+Inserting `tracingstacklevels' in `input_level_string'.
+(c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(c:/texlive/2023/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/Wjbvi/.texlive2023/te
+xmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+(c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count191
+\Gm@cntv=\count192
+\c@Gm@tempcnt=\count193
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks17
+)
+(c:/texlive/2023/texmf-dist/tex/latex/tabularray/tabularray.sty
+(c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-04-20 L3 programming layer (loader) 
+
+(c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count194
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box51
+))
+Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count195
+\l__tblr_c_int=\count196
+\l__tblr_r_int=\count197
+\l__tblr_d_dim=\dimen148
+\l__tblr_h_dim=\dimen149
+\l__tblr_o_dim=\dimen150
+\l__tblr_p_dim=\dimen151
+\l__tblr_q_dim=\dimen152
+\l__tblr_r_dim=\dimen153
+\l__tblr_s_dim=\dimen154
+\l__tblr_t_dim=\dimen155
+\l__tblr_v_dim=\dimen156
+\l__tblr_w_dim=\dimen157
+\l__tblr_a_box=\box52
+\l__tblr_b_box=\box53
+\l__tblr_c_box=\box54
+\l__tblr_d_box=\box55
+\g__tblr_table_count_int=\count198
+\c@rownum=\count199
+\c@colnum=\count266
+\c@rowcount=\count267
+\c@colcount=\count268
+\abovesep=\dimen158
+\belowsep=\dimen159
+\leftsep=\dimen160
+\rightsep=\dimen161
+\g_tblr_level_int=\count269
+\g__tblr_data_row_key_count_int=\count270
+\g__tblr_data_column_key_count_int=\count271
+\g__tblr_data_cell_key_count_int=\count272
+\g__tblr_array_int=\count273
+\l__tblr_key_count_int=\count274
+\l__tblr_key_quotient_int=\count275
+\l__tblr_key_quotient_two_int=\count276
+\l__tblr_key_remainder_int=\count277
+\g__tblr_data_str_value_count_int=\count278
+\rulewidth=\dimen162
+\l__tblr_strut_dp_dim=\dimen163
+\l__tblr_strut_ht_dim=\dimen164
+\g__tblr_cell_wd_dim=\dimen165
+\g__tblr_cell_ht_dim=\dimen166
+\g__tblr_cell_head_dim=\dimen167
+\g__tblr_cell_foot_dim=\dimen168
+\l__column_target_dim=\dimen169
+\l__tblr_caption_box=\box56
+\l__tblr_caption_left_box=\box57
+\l__tblr_row_head_box=\box58
+\l__tblr_row_foot_box=\box59
+\l__tblr_row_head_foot_dim=\dimen170
+\tablewidth=\dimen171
+\l__tblr_table_firsthead_box=\box60
+\l__tblr_table_middlehead_box=\box61
+\l__tblr_table_lasthead_box=\box62
+\l__tblr_table_firstfoot_box=\box63
+\l__tblr_table_middlefoot_box=\box64
+\l__tblr_table_lastfoot_box=\box65
+\l__tblr_remain_height_dim=\dimen172
+\l__tblr_long_from_int=\count279
+\l__tblr_long_to_int=\count280
+\l__tblr_curr_i_int=\count281
+\l__tblr_prev_i_int=\count282
+\l__tblr_table_page_int=\count283
+\l__tblr_table_head_box=\box66
+\l__tblr_table_foot_box=\box67
+\l__tblr_table_head_foot_dim=\dimen173
+\l__tblr_table_head_body_foot_dim=\dimen174
+\l__tblr_table_box=\box68
+\l__tblr_table_hlines_box=\box69
+\l__tblr_hline_box=\box70
+\l__tblr_row_box=\box71
+\l__tblr_col_o_wd_dim=\dimen175
+\l__tblr_col_b_wd_dim=\dimen176
+\l__tblr_hline_leftskip_dim=\dimen177
+\l__tblr_hline_rightskip_dim=\dimen178
+\l__tblr_row_ht_dim=\dimen179
+\l__tblr_row_dp_dim=\dimen180
+\l__tblr_row_abovesep_dim=\dimen181
+\l__tblr_row_belowsep_dim=\dimen182
+\l__tblr_row_vlines_box=\box72
+\l__tblr_vline_box=\box73
+\l__tblr_cell_box=\box74
+\l__row_upper_dim=\dimen183
+\l__row_lower_dim=\dimen184
+\l__row_vpace_dim=\dimen185
+\l__tblr_vline_aboveskip_dim=\dimen186
+\l__tblr_vline_belowskip_dim=\dimen187
+\l__tblr_cell_wd_dim=\dimen188
+\l__tblr_cell_ht_dim=\dimen189
+\l__tblr_diag_box=\box75
+)
+(./15add-1digit_operands.aux)
+\openout1 = 15add-1digit_operands.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+0.
+
+(c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 56.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 56.
+> Step: build the whole table.
+[1
+
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./15add-1digit_operands.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 3076 strings out of 478263
+ 100000,1977958 words of node,token memory allocated
+ 406 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 48 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:880,3:36,4:3,5:70,6:34,7:1314,8:1,9:678,10:2,11:6
+ 23318 multiletter control sequences out of 65536+600000
+ 27 fonts using 1608431 bytes
+ 58i,12n,116p,207b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texl
+ive/2023/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
+Output written on 15add-1digit_operands.pdf (1 page, 6978 bytes).
+
+PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
+ 12 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
