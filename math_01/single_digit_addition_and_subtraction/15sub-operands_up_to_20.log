@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.4.26)  6 FEB 2024 13:48
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.4.26)  4 MAR 2024 00:00
  restricted system commands enabled.
 **15sub-operands_up_to_20.tex
 (./15sub-operands_up_to_20.tex
@@ -268,13 +268,13 @@ Here is how much of LuaTeX's memory you used:
  406 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 48 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:870,3:58,4:3,5:72,6:34,7:1288,8:1,9:678,10:2,11:6
+   avail lists: 2:870,3:58,4:3,5:72,6:34,7:1300,8:1,9:678,10:2,11:6
  23318 multiletter control sequences out of 65536+600000
  27 fonts using 1608431 bytes
  58i,12n,116p,209b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texl
 ive/2023/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on 15sub-operands_up_to_20.pdf (1 page, 7665 bytes).
+Output written on 15sub-operands_up_to_20.pdf (1 page, 7672 bytes).
 
 PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream

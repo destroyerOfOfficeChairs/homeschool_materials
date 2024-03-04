@@ -1,0 +1,87 @@
+\documentclass{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{tabularray}
+\usepackage{amsmath} % for empty box
+
+\newcommand\numinit{\edef\num{\fpeval{randint(1,20)}}}
+\newcommand\binaryinit{\edef\binary{\fpeval{randint(0,1)}}}
+\newcommand\operator{
+  \binaryinit
+  \ifnum\binary>0 + \else - \fi
+  }
+
+\newcommand{\Hsquare}{%
+  \text{\fboxsep=5pt\fbox{\rule{0pt}{2.5ex}\rule{2.5ex}{0pt}}}%
+}
+
+\newcommand\sortxy{
+  \ifnum\y>\x
+    \let\temp\y
+    \let\y\x
+    \let\x\temp
+  \fi
+  }
+
+\newcommand\addsubone{
+  \numinit
+  \let\x\num
+  \numinit
+  \let\y\num
+%  \binaryinit
+%  \ifnum\binary<1 \sortxy \fi
+  \textbf{
+  \begin{tabular}{r@{\,}r}
+    & \x \\
+%    \ifnum\binary>0 + \else - \fi & \y \\
+    + & \y \\
+    \hline
+  \end{tabular}
+  }
+}
+
+\newcommand\addsubbox{
+  \numinit
+  \let\x\num
+  \numinit
+  \let\y\num
+  \sortxy
+  \y + \Hsquare \hspace{2mm}= \x
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\LARGE
+
+\begin{centering}
+
+15 ADDITION PROBLEMS~~~~~~~~~~~
+Date:
+
+
+\SetTblrInner{rowsep=1cm}
+
+\begin{tblr}{width=0.8\textwidth,colspec={XXXXX}}
+  
+  \addsubone & \addsubone & \addsubone & \addsubone & \addsubone \\ 
+  \addsubone & \addsubone & \addsubone & \addsubone & \addsubone \\ 
+  \addsubone & \addsubone & \addsubone & \addsubone & \addsubone 
+  
+\end{tblr}
+
+  \vspace{1cm}
+
+4 BOX PROBLEMS
+
+\begin{tblr}{width=0.8\textwidth,colspec={XX}}
+
+  \huge\addsubbox & \huge\addsubbox \\
+  \huge\addsubbox & \huge\addsubbox 
+  
+\end{tblr}
+
+\end{centering}
+
+\end{document}
